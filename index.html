@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aku dan D3TI</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family:  'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #700070;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background-color: #4A1B9D;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fdfdfd;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+
+    article {
+      padding: 30px;
+    }
+        
+        img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .author {
+      margin-top: 40px;
+      font-style: italic;
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4A1B9D;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      article {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="color: white;">Aku dan D3TI</h1>
+    <nav>
+      <a href="#artikel">Artikel</a>
+      <a href="#tentang">Tentang</a>
+    </nav>
+  </header>
+
+  <main>
+    <article id="artikel">
+      <img src="gambarye/amin.jpeg" alt="Foto kebersamaan">
+      <h2 style="color: black;">Artikel</h2>
+      <p>
+       <h3>Kenapa Harus D3TI?</h3>
+       D3TI merupakan salah satu prodi yang ada di Universitas Amikom Yogyakarta, lebih tepatnya ada pada Fakultas Ilmu Komputer. Alasan saya sendiri memilih prodi ini karena fleksibel dan mata kuliah yang ada pun sangat sesuai dengan keinginan saya. Di prodi ini kita akan mempelajari berbagai macam tentang dunia IT, ada yang menjurus ke Web, Jaringan Komputer dan Animasi. Selama saya menjalani masa studi, saya mendapat banyak hal positif di lingkungan D3TI. 
+      <p>
+        Selain itu kini prodi D3TI sudah mendapat akreditasi Unggul!!
+        Jika teman-teman masih bingung tentang prodi D3TI kalian bisa mengunjungi 
+        website resmi D3TI:
+        <a href="https://d3ti.amikom.ac.id/" target="_blank">d3ti.amikom.ac.id</a>. Selama masa studi saya telat membuat berbagai project dan tugas yang sangat menarik diantaranya ada Remastering Os, membuat aplikasi atau website dengan gabungan bahasa python, membantu UMKM dengan memasarkan produknya, merancang topology jaringan dan masih banyak lagi.
+              </p>      
+      <p>
+        Dosen yang ada disini juga sangat asik dan sangat membaur dengan mahasiswa yang ada, tidak istilah senioritas pada prodi D3TI ini maupun di Universitas ini sendiri, justru sebaliknya mahasiswa yang tingkatannya lebih tinggi selalu membantu adik tingkatnya dalam menyelesaikan tugasnya maupun dalam kesulitan yang lain. 
+      </p>     
+      <p>
+        Prodi D3TI adalah pilihan yang tepat bagi kalian yang ingin belajar teknologi secara aplikatif dan cepat masuk ke dunia kerja. Tidak perlu khawatir jika belum menguasai semuanya dari awal, karena di D3TI kalian akan dibimbing dari dasar hingga mahir.
+
+        Teknologi adalah masa depan, dan D3TI adalah tempat yang tepat untuk memulainya. Dengan semangat belajar dan kemauan untuk berkembang, aku percaya siapa pun bisa sukses di bidang ini.
+      </p>   
+      <p>
+        "Aku dan D3TI" bukan hanya tentang jurusan yang kupilih, tetapi juga tentang perjalanan mengenal diriku sendiri, mengenal dunia teknologi, dan menyiapkan masa depan yang lebih baik. Semoga kisahku bisa menjadi inspirasi bagi kalian yang sedang mencari arah dalam perjalanan akademik dan karier.
+      </p>
+      <h3>Lingkungan?</h3>
+      <p>
+        Oh tentu saja lingkungan belajar di D3TI sangat nyaman karena dosen akan secara aktif berinteraksi dengan mahasiswa selama proses pembelajaran yang akan membuat mahasiswa merasa santai dan nyaman ketika pembelajaran sedang berlangsung. Jika kamu kesulita untuk mengerjakan tugas yang diberikan oleh dosen dan malu untuk bertanya secara langsusng, kamu bisa bertanya ke kating kok, karena kating di D3TI sangat mengayomi adik tingkatnya yang membuat para adik tingkat ini tidak sungkan untuk betanya secara langsung kepada kating, tentu saja karena kating yang ada juga cantik-cantik dan ganteng-ganteng
+      </p>
+      <h3>Prestasi?</h3>
+      <p>
+        Mahasiswa D3TI juga berprestasi loh!
+        seperti kakak tingkat kita pada angkatan 2021 yang mengikuti ajang kompetisi Bytesfest dan meraih juara 1 pada bidang Web Design Competition dengan membuat sebuah karya yang berjudul OSTELLAR, yakni sebuah design website e-learning mengenai dunia astronomi
+        Wihh keren banget kan!
+      </p>
+      <p class="author">Galih Dwi Mulianto (24.01.5205)</p>
+    </article>
+
+    <article id="tentang">
+      <h2>Tentang</h2>
+      <p>
+        Website ini digunakan untuk memenuhi tugas pengganti UTS Lingkungan Bisnis yang diampu oleh Prof,Dr.M.Suyanto,MM., Barka Satya,M.Kom
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    &copy; Galih Dwi Mulianto Universitas Amikom Yogyakarta
+  </footer>
+
+</body>
+</html>
